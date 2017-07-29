@@ -30,3 +30,19 @@ header {
 .title {
   margin: 0px;
   margin-bottom: 40px; }
+
+.image-contain {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center; }
+
+.icon {
+  width: 65px;
+  height: 65px;
+  cursor: pointer; }
+  .icon.stack {
+    width: 59px;
+    height: 59px;
+    padding: 0px;
+    margin-top: 1px; }

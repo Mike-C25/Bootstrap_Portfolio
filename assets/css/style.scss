@@ -1,59 +1,84 @@
-$yel : #EEC25E;
+$yel: #EEC25E;
 
-$sal : #F79D84;
+$sal: #F79D84;
 
-$gr : #59CD90;
+$gr: #59CD90;
 
-$bl : #39A0ED;
+$bl: #39A0ED;
 
-$r : #EE6352;
+$r: #EE6352;
 
 
 
-header{
-	border-bottom:2px solid #cdcdcd;
-	.navbar{
-		margin: 0px;
-		margin-top: 20px;
-		a{
-			color: white;
-			background: $bl;
-			&.navbar-brand{
-				height: 60px;
-				width: 200px;
-				text-align: center;
-				padding: 20px 15px;
-			}
-		}
-		ul{
-			li{
-				a{
-					color: $bl;
-					background: none;
-					cursor: pointer;
-					transition: all .2s ease-in-out;
-					font-size: 16px;
-					&:hover{
-						color: $gr;
-						background: transparent;
-					}
-				}
-			}
-		}
-	}
+header {
+    border-bottom: 2px solid #cdcdcd;
+    .navbar {
+        margin: 0px;
+        margin-top: 20px;
+        a {
+            color: white;
+            background: $bl;
+            &.navbar-brand {
+                height: 60px;
+                width: 200px;
+                text-align: center;
+                padding: 20px 15px;
+            }
+        }
+        ul {
+            li {
+                a {
+                    color: $bl;
+                    background: none;
+                    cursor: pointer;
+                    transition: all .2s ease-in-out;
+                    font-size: 16px;
+                    &:hover {
+                        color: $gr;
+                        background: transparent;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.nav>li {
+    display: inline-block;
 }
 
 
-.nav>li{
-	display: inline-block;
+.pad-top {
+    margin-top: 40px;
+}
+
+.title {
+    margin: 0px;
+    margin-bottom: 40px;
 }
 
 
-.pad-top{
-	margin-top: 40px;
+
+.image-contain {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
 }
 
-.title{
-	margin: 0px;
-	margin-bottom: 40px;
+.icon {
+    width: 65px;
+    height: 65px;
+    cursor: pointer; // -webkit-transition: all .2s ease-in-out;
+    // -o-transition: all .2s ease-in-out;
+    // transition: all .2s ease-in-out;
+    &:hover {
+        // transform: scale(1.1);
+    }
+    &.stack {
+        width: 59px;
+        height: 59px;
+        padding: 0px;
+        margin-top: 1px;
+    }
 }
