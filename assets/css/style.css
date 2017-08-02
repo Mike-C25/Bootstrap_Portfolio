@@ -1,5 +1,9 @@
+body {
+  background: #F2F2F2; }
+
 header {
-  border-bottom: 2px solid #cdcdcd; }
+  border-bottom: 2px solid #cdcdcd;
+  background: white; }
   header .navbar {
     margin: 0px;
     margin-top: 20px; }
@@ -24,7 +28,7 @@ header {
 .nav > li {
   display: inline-block; }
 
-.pad-top {
+.mar-top {
   margin-top: 40px; }
 
 .port-pad {
@@ -34,11 +38,20 @@ header {
   margin: 0px;
   margin-bottom: 40px; }
 
+.content-color {
+  background: white; }
+
 .image-contain {
   width: 100%;
   margin: 0 auto;
   margin-top: 20px;
   text-align: center; }
+
+.pad-top-bot {
+  padding: 40px 0px; }
+
+.contain {
+  padding: 40px; }
 
 .icon {
   width: 65px;
@@ -49,3 +62,6 @@ header {
     height: 59px;
     padding: 0px;
     margin-top: 1px; }
+
+.gap {
+  margin: 30px 0px; }
